@@ -13,6 +13,11 @@ public class DemoGitApplication {
 		return "get";
 	}
 	@GetMapping("/get")
+	public String welcomes(){
+		return "welcome";
+	}
+
+	@GetMapping("/get")
 	public String welcome(){
 		return "welcome";
 	}
