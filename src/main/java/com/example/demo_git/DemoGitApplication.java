@@ -12,6 +12,10 @@ public class DemoGitApplication {
 	public String get(){
 		return "get";
 	}
+	@GetMapping("/get")
+	public String welcome(){
+		return "welcome";
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoGitApplication.class, args);
