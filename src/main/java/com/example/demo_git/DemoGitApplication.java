@@ -12,7 +12,7 @@ public class DemoGitApplication {
 	public String get(){
 		return "get";
 	}
-	@GetMapping("/get")
+	@GetMapping("/welcome")
 	public String welcomes(){
 		return "welcome";
 	}
